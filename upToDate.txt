@@ -1,0 +1,8 @@
+=== Cara agar repo kita up to date dengan repo orang ===
+1. fork repo
+2. clone repo ke local kita
+3. tambahin remote dari pemilik ke local buat sinkron up to date
+4. fetch data dari remote pemilik
+5. git merge nama-remote-pemilik/nama-branch-pemilik (note : pastiin branch kita lagi di main, dan merge  nya pun ke main juga yg punya repo)
+6. git push nama-remote-anda/nama-branch-anda
+7. cek menggunakan graph, pastiin gada yg ketinggalan

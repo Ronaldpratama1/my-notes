@@ -1,0 +1,12 @@
+=== Ketika pengen repo kita di update oleh pemilik repo (jatuhnya pull request) ===
+1. fork repo
+2. clone repo ke local kita
+3. tambahin remote dari pemilik ke local buat sinkron up to date (beserta link pemilik repo)
+4. fetch data dari remote pemilik
+5. edit data yang kita mau (bikin branch baru)
+6. git add .
+7. commit 
+8. push ke repo github : git push nama-remote nama-branch 
+9. fetch repo, dari pemilik repo 
+10. lalu pull request ke pemilik repo 
+11. setelah di acc lalu kita sinkron ke repo kita
