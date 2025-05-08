@@ -1,0 +1,10 @@
+Rebase di Git
+- ketika mau merge, ternyata di main branch udh ketinggalan 1 commit
+- maka branch yg kita buat di rebase terlebih dahulu
+- pull repo nya (pindah ke main-branch dulu)
+- pindah ke branch yang mau di rebase
+- git rebase main
+- lalu branch main nya masih dibelakang
+- maka pindah ke main-branch
+- rebase branch-yang-mau-direbase
+- lalu jangan lupa push
