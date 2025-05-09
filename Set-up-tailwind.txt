@@ -1,7 +1,7 @@
 Set Up Tailwind css (repot amat bjier)
 1. masuk ke direktori projectmu
 2. npm init 
-3. npm install tailwindcss @tailwindcss/cli postcss autoprefixer
+3. npm install tailwindcss @tailwindcss/cli
 4. bikin file input.css lalu isi didalamnya 
     @import "tailwindcss";
     @tailwind base;
