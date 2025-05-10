@@ -1,0 +1,10 @@
+-- How to Extends theme by yourself
+Cth : nambahin font
+1. masuk ke input.css
+2. bikin 
+  @theme {
+    --font-nama-font-mu: nama-font-mu;
+  }
+
+-- Gradiasi warna ke text
+1. class="bg-gradient-to-tr from-blue-700 to-teal-400 bg-clip-text text-transparent"
