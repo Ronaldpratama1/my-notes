@@ -1,10 +1,5 @@
 -- How to Extends theme by yourself
-Cth : nambahin font
-1. masuk ke input.css
-2. bikin 
-  @theme {
-    --font-nama-font-mu: nama-font-mu;
-  }
+
 
 -- Gradiasi warna ke text
 1. class="bg-gradient-to-tr from-blue-700 to-teal-400 bg-clip-text text-transparent"
@@ -42,3 +37,15 @@ Cth : nambahin font
 1. Base : custom default tailwind (prioritas utama)
 2. Components : komponen seperti mempunyai default style button sendiri
 3. Utilities : custom style css 
+
+-- Theme di tailwind
+Semisal anda mempunyai ketetapan warna sendiri / spacing sendiri, tetapi di tailwind tidak ada, maka waktunya anda menggunakan theme
+Cara kerja :
+Cth : nambahin font dan warna
+1. masuk ke input.css
+2. bikin 
+  @theme {
+    --font-nama-font-mu: nama-font-mu;
+    --font-inter: 'Inter';
+    --color-biru-facebook: #1877f2;
+  }
