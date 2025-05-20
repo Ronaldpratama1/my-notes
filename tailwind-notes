@@ -8,3 +8,13 @@ Cth : nambahin font
 
 -- Gradiasi warna ke text
 1. class="bg-gradient-to-tr from-blue-700 to-teal-400 bg-clip-text text-transparent"
+
+-- Mengubah default nya tailwind dengan keinginan kita sendiri
+1. Masuk ke input.css
+2. Didalam nya ketik
+  @layer base {
+  h1 {
+    @apply text-3xl;
+  }
+}
+3. Maka setiap h1 akan besar text nya, walau tidak diberi class didalamnya
