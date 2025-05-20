@@ -29,7 +29,16 @@ Cth : nambahin font
   }
 }
 
+-- kalau punya komponen (cth: button) yg kita punya standard sendiri
+1. taruh di input.css -> di layer components
+2. ketik 
+  @layer components {
+  .btn {
+    @apply bg-green-400 px-4 py-2 rounded-xl text-white cursor-pointer hover:bg-green-600 active:outline-2 active:outline-green-500 active:outline-offset-2 active:bg-green-700;
+  }
+}
+
 -- Urutan @layer di input.css  
 1. Base : custom default tailwind (prioritas utama)
-2. Components : komponen seperti card, dll
+2. Components : komponen seperti mempunyai default style button sendiri
 3. Utilities : custom style css 
