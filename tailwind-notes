@@ -18,3 +18,18 @@ Cth : nambahin font
   }
 }
 3. Maka setiap h1 akan besar text nya, walau tidak diberi class didalamnya
+
+-- Best practices ketika ada custom css sendiri
+1. Tambahin custom css anda ke input.css lalu beri layer di utilities
+2. Masuk ke input.css
+3. Ketik
+  @layer utilities {
+  body {
+    height: 5000px;
+  }
+}
+
+-- Urutan @layer di input.css  
+1. Base : custom default tailwind (prioritas utama)
+2. Components : komponen seperti card, dll
+3. Utilities : custom style css 
